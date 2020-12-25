@@ -58,7 +58,8 @@ jobs:
       - name: "brew cask list"
         run:   brew list --cask #Warning: Calling brew cask list is deprecated! Use brew list [--cask] instead.
       - name: "brew list"
-        run: brew list #List all the installed formulas
+        # run: brew list #Error: Calling `brew list` to only list formulae is disabled!
+        run: brew list --formula
       - name: "Get OS X System Version"
         run: sw_vers       
       - name: "Get Mac System Details with system_profiler"
@@ -84,7 +85,8 @@ jobs:
       - name: "brew cask list"
         run:   brew list --cask #Warning: Calling brew cask list is deprecated! Use brew list [--cask] instead.
       - name: "brew list"
-        run: brew list #List all the installed formulas
+        # run: brew list #Error: Calling `brew list` to only list formulae is disabled!
+        run: brew list --formula
       - name: "Get OS X System Version"
         run: sw_vers       
       - name: "Get Mac System Details with system_profiler"
@@ -110,7 +112,8 @@ jobs:
       - name: "brew cask list"
         run:   brew list --cask #Warning: Calling brew cask list is deprecated! Use brew list [--cask] instead.
       - name: "brew list"
-        run: brew list #List all the installed formulas
+        # run: brew list #Error: Calling `brew list` to only list formulae is disabled!
+        run: brew list --formula
       - name: "Get OS X System Version"
         run: sw_vers       
       - name: "Get Mac System Details with system_profiler"
