@@ -1,2 +1,9 @@
 # multios-pipeline
-multios githubactions
+
+
+~~~~
+linux
+windows
+macos
+
+~~~~
