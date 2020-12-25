@@ -3,7 +3,7 @@ name: "os matrix CI workflow"
 
 on:
   push:
-    branches: [ feature_githubactions ]
+    branches: [ dev ]
   # pull_request:
   #   branches: [ githubactions_powershell ]
 
