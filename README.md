@@ -5,7 +5,17 @@ github actions :
 
 ~~~~
 linux
+ubuntu-16.04
+ubuntu-18.04
+ubuntu-20.04
+
 windows
+Microsoft Windows Server 2019 Datacenter
+Microsoft Windows Server 2016 Datacenter
+
 macos
+macos-latest 10.15.7
+macos-10.15
+macos-11.0
 
 ~~~~

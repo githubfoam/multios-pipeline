@@ -3,15 +3,15 @@ name: "os matrix CI workflow"
 
 on:
   push:
-    branches: [ test ]
+    branches: [ main ]
   pull_request:
-    branches: [ test ]
+    branches: [ main ]
 
 
 jobs:
 
   ubuntu-job:
-    name: "ubuntu-latest"
+    name: "ubuntu-latest ubuntu-18.04"
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -44,7 +44,7 @@ jobs:
 
 
   macos-latest:
-      name: "macos-latest 10.15.7"
+      name: "macos-latest macos 10.15.7"
       runs-on: macos-latest
       steps:
       - name: Checkout
